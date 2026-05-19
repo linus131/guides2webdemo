@@ -5,8 +5,8 @@
     <title>Guides2web</title>
     
 <script type="module">
-import init, * as bindings from '/guides2webdemo/guides2web-c028c42d1deae36c.js';
-const wasm = await init({ module_or_path: '/guides2webdemo/guides2web-c028c42d1deae36c_bg.wasm' });
+import init, * as bindings from '/guides2webdemo/guides2web-c29c2ff67943a54f.js';
+const wasm = await init({ module_or_path: '/guides2webdemo/guides2web-c29c2ff67943a54f_bg.wasm' });
 
 
 window.wasmBindings = bindings;
@@ -21,7 +21,7 @@ dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
             overflow: hidden; background-color: #1b1b1b;
         }
     </style>
-<link rel="modulepreload" href="/guides2webdemo/guides2web-c028c42d1deae36c.js" crossorigin="anonymous" integrity="sha384-mbOJg+VxGVDlSLhPvzu75uGAIyY04KfGLoFz9OCVdhywkLwr6rqtApVSl/03f8zZ"><link rel="preload" href="/guides2webdemo/guides2web-c028c42d1deae36c_bg.wasm" crossorigin="anonymous" integrity="sha384-Ji6QXJOtlTHL/QB/SniDNuoxvZBOFbmByBEvLOj8NeQyE6jkwXmr238N8qU7Kkb0" as="fetch" type="application/wasm"></head>
+<link rel="modulepreload" href="/guides2webdemo/guides2web-c29c2ff67943a54f.js" crossorigin="anonymous" integrity="sha384-/cavtIVo5y83rZWlU3Ys6EqyJHEV5xaJnl6XCJuZR5ylVJXUc8u5+PEJzqDdHTUy"><link rel="preload" href="/guides2webdemo/guides2web-c29c2ff67943a54f_bg.wasm" crossorigin="anonymous" integrity="sha384-GecbNPIUIVUFjYAZs27bcmZhmv1Efr9TOFcurumbnczIA2+92vWgkDk5djt7d9of" as="fetch" type="application/wasm"></head>
 <body>
     <canvas id="the_canvas_id"></canvas>
 </body>
